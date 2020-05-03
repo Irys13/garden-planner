@@ -1,0 +1,9 @@
+<p>plants works!</p>
+<div>
+  <label>Pick a plant:</label>
+  <div *ngIf="plant != null">
+    <select [(ngModel)]="plant.name">
+      <option *ngFor="let p of name" [ngValue]="p">{{plant.name}}</option>
+    </select>
+  </div>
+</div>

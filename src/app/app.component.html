@@ -1,0 +1,13 @@
+<div class="toolbar">
+  <button (click)="addSquare()">Add Square</button>
+  <button (click)="addSquareFoot()">Add Square Foot</button>
+</div>
+
+<gridster [options]="options">
+  <gridster-item [item]="i" *ngFor="let i of square">
+        <app-plants></app-plants>
+        <!-- <button (click)="AppComponent.deleteItem(item)">
+        Delete Item
+      </button>-->
+  </gridster-item>
+</gridster>
