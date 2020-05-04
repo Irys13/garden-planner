@@ -1,5 +1,8 @@
 # GardenPlanner
 
+This app is for planning garden with square feet principle. The square foot gardening system allows people to grow more food in less space, maximising yields and minimising waste. Square foot gardening is the practice of dividing the growing area into small square sections, typically 1 foot (30 cm) on a side, hence the name. 
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
 ## Development server
