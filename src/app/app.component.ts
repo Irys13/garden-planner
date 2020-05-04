@@ -18,16 +18,16 @@ export class AppComponent {
   public newItem: GridsterItem;
   public initialPositionX = 0;
   public initialPositionY = 0;
-  xSizeLimit:number = AppComponent.X_SIZE;
-  ySizeLimit:number = AppComponent.Y_SIZE;
+  xSizeLimit: number = AppComponent.X_SIZE;
+  ySizeLimit: number = AppComponent.Y_SIZE;
 
 
   constructor() {
     this.options = {
       pushItems: true,
-      minCols: 20,
+      minCols: 9,
       maxCols: 20,
-      minRows: 14,
+      minRows: 6,
       maxRows: 100,
       margin: 5,
       fixedRowHeight: 120,

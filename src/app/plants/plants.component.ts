@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-plants',
@@ -12,35 +12,6 @@ export class PlantsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  plantList() {
-    let plants = [
-      {
-        name: 'potato',
-        quantity: 1,
-        nitrogen: 'low'
-      },
-      {
-        name: 'tomato',
-        quantity: 2,
-        nitrogen: 'high'
-      },
-      {
-        name: 'radishes',
-        quantity: 16,
-        nitrogen: 'medium'
-      }
-    ];
 
-    function listOfPlantNames(p) {
-      let plantNames = [];
-      for (let i = 0; i < p.length; i += 1) {
-        plantNames.push(p[1].name);
-      }
-      return plantNames;
-    }
-  }
 
-  choosePlants() {
-
-  }
 }

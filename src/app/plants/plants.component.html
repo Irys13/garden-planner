@@ -1,9 +1,13 @@
 <p>plants works!</p>
 <div>
   <label>Pick a plant:</label>
-  <div *ngIf="plant != null">
-    <select [(ngModel)]="plant.name">
-      <option *ngFor="let p of name" [ngValue]="p">{{plant.name}}</option>
+
+  <select (mousedown)="$event.stopPropagation()" (touchstart)="$event.stopPropagation()">
+    <option value="1">1</option>
+    <option value="1">2</option>
+    <option value="1">3</option>
+    <option value="1">3</option>
+    <option value="1">3</option>
     </select>
   </div>
 </div>
